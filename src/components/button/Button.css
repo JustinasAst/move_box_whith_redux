@@ -1,0 +1,48 @@
+.button {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 800px;
+  margin: 50px auto;
+}
+.button div {
+  background: rgb(70, 67, 67);
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button div:hover {
+  background: rgb(109, 106, 106);
+}
+.div1 {
+  grid-area: 1 / 4 / 2 / 5;
+  font-size: 50px;
+}
+.div2 {
+  grid-area: 3 / 4 / 4 / 5;
+  font-size: 60px;
+}
+.div3 {
+  grid-area: 2 / 3 / 3 / 4;
+  font-size: 50px;
+}
+.div4 {
+  grid-area: 2 / 5 / 3 / 6;
+  font-size: 50px;
+}

@@ -1,0 +1,8 @@
+.main_div {
+  box-sizing: border-box;
+  background: green;
+  width: 800px;
+  height: 800px;
+  position: relative;
+  margin: 0 auto;
+}
