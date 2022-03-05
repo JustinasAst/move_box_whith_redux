@@ -29,25 +29,25 @@ interface MoveDown {
 type Action = MoveLeft | MoveRight | MoveUp | MoveDown;
 
 interface CounterState {
-  Y: number;
-  X: number;
+  y: number;
+  x: number;
 }
 
 const initialState: CounterState = {
-  Y: 0,
-  X: 0,
+  y: 0,
+  x: 0,
 };
 
 export const moveReducers = (state: any = initialState, action: Action) => {
   switch (action.type) {
     case UserActionTypes.MOVE_LEFT:
-      return { ...state, Y: state.Y < 50 ? (state.Y = 0) : state.Y - 50 };
+      return { ...state, y: state.y < 50 ? (state.y = 0) : state.y - 50 };
     case UserActionTypes.MOVE_RIGHT:
-      return { ...state, Y: state.Y >= 750 ? (state.Y = 750) : state.Y + 50 };
+      return { ...state, y: state.y >= 750 ? (state.y = 750) : state.y + 50 };
     case UserActionTypes.MOVE_UP:
-      return { ...state, X: state.X < 50 ? (state.X = 0) : state.X - 50 };
+      return { ...state, x: state.x < 50 ? (state.x = 0) : state.x - 50 };
     case UserActionTypes.MOVE_DOWN:
-      return { ...state, X: state.X > 700 ? (state.X = 750) : state.X + 50 };
+      return { ...state, x: state.x > 700 ? (state.x = 750) : state.x + 50 };
     default:
       return state;
   }

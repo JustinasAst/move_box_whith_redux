@@ -1,4 +1,4 @@
-.button {
+.buttons-box {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -8,7 +8,7 @@
   margin: 50px auto;
 }
 
-.button div {
+.buttons-box > div {
   background: rgb(70, 67, 67);
   border-radius: 4px;
   color: white;
@@ -25,10 +25,10 @@
   align-items: center;
   border-radius: 50%;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 250ms;
 }
 
-.button div:hover {
+.buttons-box > div:hover {
   background: rgb(109, 106, 106);
 }
 
@@ -37,7 +37,7 @@
   font-size: 50px;
 }
 
-.dbutton-down {
+.button-down {
   grid-area: 3 / 4 / 4 / 5;
   font-size: 60px;
 }
