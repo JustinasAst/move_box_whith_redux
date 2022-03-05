@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import './Button.css';
+import { FC } from 'react';
+import './ButtonsBox.css';
 import { BsTriangle, BsCircle } from 'react-icons/bs';
 import { GoX } from 'react-icons/go';
 import { FiSquare } from 'react-icons/fi';
@@ -8,7 +8,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { UserActionTypes } from '../../store/reducer/useReducer';
 import { RootState } from '../../store/reducer';
 
-const Button: FC = () => {
+const ButtonsBox: FC = () => {
   const action = useSelector((state: RootState) => state.move);
   const dispatch = useDispatch();
 
@@ -37,4 +37,4 @@ const Button: FC = () => {
   );
 };
 
-export default Button;
+export default ButtonsBox;

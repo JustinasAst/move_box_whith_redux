@@ -7,6 +7,7 @@
   width: 800px;
   margin: 50px auto;
 }
+
 .button div {
   background: rgb(70, 67, 67);
   border-radius: 4px;
@@ -30,18 +31,22 @@
 .button div:hover {
   background: rgb(109, 106, 106);
 }
+
 .div1 {
   grid-area: 1 / 4 / 2 / 5;
   font-size: 50px;
 }
+
 .div2 {
   grid-area: 3 / 4 / 4 / 5;
   font-size: 60px;
 }
+
 .div3 {
   grid-area: 2 / 3 / 3 / 4;
   font-size: 50px;
 }
+
 .div4 {
   grid-area: 2 / 5 / 3 / 6;
   font-size: 50px;

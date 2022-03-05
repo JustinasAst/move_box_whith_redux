@@ -1,13 +1,13 @@
-import MainDiv from './components/mainDiv/MainDiv';
-import Button from './components/button/Button';
+import BoxMovingField from './components/mainDiv/BoxMovingField';
+import ButtonBox from './components/button/ButtonsBox';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <MainDiv />
-      <Button />
+      <BoxMovingField />
+      <ButtonBox />
     </div>
   );
 }
