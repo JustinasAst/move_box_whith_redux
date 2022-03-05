@@ -21,16 +21,16 @@ const ButtonsBox: FC = () => {
 
   return (
     <div className="button">
-      <div onClick={goUp} className="div1">
+      <div onClick={goUp} className="button-up">
         <BsTriangle />
       </div>
-      <div onClick={goDown} className="div2">
+      <div onClick={goDown} className="button-down">
         <GoX />
       </div>
-      <div onClick={goLeft} className="div3">
+      <div onClick={goLeft} className="button-left">
         <FiSquare />
       </div>
-      <div onClick={goRight} className="div4">
+      <div onClick={goRight} className="button-right">
         <BsCircle />
       </div>
     </div>

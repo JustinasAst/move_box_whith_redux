@@ -32,22 +32,22 @@
   background: rgb(109, 106, 106);
 }
 
-.div1 {
+.button-up {
   grid-area: 1 / 4 / 2 / 5;
   font-size: 50px;
 }
 
-.div2 {
+.dbutton-down {
   grid-area: 3 / 4 / 4 / 5;
   font-size: 60px;
 }
 
-.div3 {
+.button-left {
   grid-area: 2 / 3 / 3 / 4;
   font-size: 50px;
 }
 
-.div4 {
+.button-right {
   grid-area: 2 / 5 / 3 / 6;
   font-size: 50px;
 }
