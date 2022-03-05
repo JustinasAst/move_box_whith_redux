@@ -1,4 +1,4 @@
-import MovingBox from './components/centerDiv/MovingBox';
+import MovingBox from './components/movingBox/MovingBox';
 import ButtonBox from './components/button/ButtonsBox';
 
 import './App.css';

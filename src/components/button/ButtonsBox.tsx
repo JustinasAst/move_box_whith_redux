@@ -10,7 +10,7 @@ import { UserActionTypes } from '../../store/reducer/useReducer';
 import { RootState } from '../../store/reducer';
 
 const ButtonsBox: FC = () => {
-  const axisValues = useSelector((state: RootState) => state.moveRedusers);
+  const axisValues = useSelector((state: RootState) => state.movementPositions);
   const dispatch = useDispatch();
 
   const moveLeft = () => dispatch({ type: UserActionTypes.MOVE_LEFT });

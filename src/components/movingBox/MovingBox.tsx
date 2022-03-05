@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../store/reducer';
 
 const MovingBox = () => {
-  const leftRight = useSelector((state: RootState) => state.moveRedusers);
+  const leftRight = useSelector((state: RootState) => state.movementPositions);
 
   return (
     <div
