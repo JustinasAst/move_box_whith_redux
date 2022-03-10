@@ -34,7 +34,7 @@
 
 .box-moving-field {
   box-sizing: border-box;
-  background: green;
+  background-color: green;
   width: 800px;
   height: 800px;
   position: relative;

@@ -9,7 +9,7 @@
 }
 
 .buttons-box > div {
-  background: rgb(70, 67, 67);
+  background-color: rgb(70, 67, 67);
   border-radius: 4px;
   color: white;
   padding: 5px;
@@ -29,7 +29,7 @@
 }
 
 .buttons-box > div:hover {
-  background: rgb(109, 106, 106);
+  background-color: rgb(109, 106, 106);
 }
 
 .button-up {
